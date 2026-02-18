@@ -1,0 +1,53 @@
+#title {
+    color: #f27055 /*Color en hexadecimal*/
+    color: rgb(200,208,98);/*Color en RGB*/
+}
+
+p.text {
+    color: rgb(133,133,237);
+    /*border: 5px blue outset; /*dashed, solid, double, groove, ridge, inset, outset, none, hidden*/
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+
+.special {
+    color: violet;
+}
+
+div p {
+    color:green;
+}
+
+div h2 {
+    color: rgb(245, 14, 206) ;
+}
+
+div h3 {
+    color: rgb(129, 77, 5) ;
+}
+
+/* este es el selector universal */
+#title * {
+    font-size: 20px; /* esto cambia la fuente a 20 pixeles */
+    color: black;
+}
+
+#article {
+    color: white;
+    background-color: rgb(238, 227, 80);
+    opacity: 1;
+    padding: 10px;
+    border: 12px solid darkgray;
+    border-radius: 5px;
+    /*background-image: url(Images/concierto\ imagen.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    background: rgb(175,68,29) url("Images/concierto\ imagen.avif") no-repeat fixed center / cover;
+
+}
